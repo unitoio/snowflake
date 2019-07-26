@@ -5,17 +5,19 @@
   "repository": "https://github.com/Medium/eng-growth",
   "license": "MIT",
   "dependencies": {
+    "@types/next": "^8.0.6",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.5",
     "d3": "^4.11.0",
-    "next": "^4.0.0-beta.4",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "next": "^9.0.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "scripts": {
     "dev": "next",
-    "export": "next build && next export",
-    "flow": "flow"
+    "export": "next build && next export"
   },
   "devDependencies": {
-    "flow-bin": "^0.57.2"
+    "typescript": "^3.5.3"
   }
 }
